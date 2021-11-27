@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles/global.css" />
+  <link rel="stylesheet" href="styles/landingPage/main.css" />
+  <link rel="stylesheet" href="../node_modules/swiper/swiper-bundle.min.css">
+
+  <link rel="stylesheet" href="lib/Glider.js-master/glider.css">
+
+  <title>Agendaí</title>
+</head>
+
+<body>
+  <header class="header dark">
+    <div class="wrapper">
+      <a href="/"><img src="assets/icons/logo.png" alt="Logo da Agendaí" /></a>
+      <nav class="menu">
+        <li><button class="btn btn-blue">Login</button></li>
+        <li><button class="btn btn-transparent">Register</button></li>
+      </nav>
+    </div>
+  </header>
+
+  <section id="hero">
+    <div class="swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="content-text wrapper">
+            <h2 class="text-light">Encontre aqui a barbearia
+              mais próxima da sua casa!</h2>
+          </div>
+          <img src="assets/images/LandingPage/hero-image.jpg" alt="">
+        </div>
+        <div class="swiper-slide"><img src="assets/images/LandingPage/hero-image.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="assets/images/LandingPage/hero-image.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="assets/images/LandingPage/hero-image.jpg" alt=""></div>
+      </div>
+      <div class="swiper-pagination"></div>
+
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+
+      <div class="swiper-scrollbar"></div>
+    </div>
+  </section>
+
+  <section id="recommended" class="section-separator">
+    <div class="wrapper">
+      <h2 class="text-dark section-heading-padding">Recomendados</h2>
+      <div class="glider-contain">
+        <div class="glider">
+         <img src="assets/images/LandingPage/recommended-image-1.jpg" alt="">
+          <img src="assets/images/LandingPage/recommended-image-2.jpg" alt="">
+          <img src="assets/images/LandingPage/recommended-image-3.jpg" alt="">
+          <img src="assets/images/LandingPage/recommended-image-1.jpg" alt="">
+          <img src="assets/images/LandingPage/recommended-image-2.jpg" alt="">
+         <img src="assets/images/LandingPage/recommended-image-1.jpg" alt="">
+          <img src="assets/images/LandingPage/recommended-image-2.jpg" alt="">
+          <img src="assets/images/LandingPage/recommended-image-3.jpg" alt="">
+          <img src="assets/images/LandingPage/recommended-image-1.jpg" alt="">
+          <img src="assets/images/LandingPage/recommended-image-2.jpg" alt="">
+        </div>
+        <button aria-label="Anterior" class="glider-prev">«</button>
+        <button aria-label="Proximo" class="glider-next">»</button>
+        <div role="tablist" class="dots"></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="section-separator ">
+    <div class="wrapper">
+      <h2 class="text-dark section-heading-padding">Encontre sua necessidade 
+        e agende com rapidez.</h2>
+        <div class="service-contain section-column-gap d-flex-justify-center">
+          <div><img src="assets/images/LandingPage/image-service-section.svg" alt="Calendario"></div>
+          <div><span class="text-format-conent">Está atrás de um serviço e precisa agendar algum horário? Encontre aqui os mais variados negócios e agende o seu atendimento.
+            É rápido, simples e totalmente acessível!
+            </span></div>
+        </div>
+    </div>
+  </section>
+
+  <section id="service-company" class="section-separator dark">
+    <div class="wrapper">
+      <h2 class="text-light section-heading-padding">Organização e praticidade no seu negócio.</h2>
+      <div class="service-company-contain section-column-gap d-flex-justify-center">
+        <div><span class="text-format-conent text-light">Quer um ambiente de trabalho organizado, prático e sem muito retrabalho? Traga a sua empresa para a nossa plataforma! Quer saber mais? Vem com a gente!</span></div>
+        <div><img src="assets/images/LandingPage/image-service-company.svg" alt="Imagem organização para empresa"></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="service-localization" class="section-separator">
+    <div class="wrapper">
+      <h2 class="text-dark section-heading-padding">Ative a localização e encontre o negócio mais próximo de você.</h2>
+      <div class="localization-contain d-flex-justify-center">
+        <div><img src="assets/images/LandingPage/image-service-localization.svg" alt="Celular representando a localização"></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="service-scheduling" class="section-separator dark">
+    <div class="wrapper">
+      <h2 class="text-light section-heading-padding">Agendamento em tempo real.</h2>
+      <div class="scheduling-contain d-flex-justify-center">
+        <img src="assets/images/LandingPage/image-service-scheduling.svg" alt="Relogio - agendamento em tempo real">
+      </div>
+    </div>
+  </section>
+
+  <section id="objective" class="section-separator light">
+    <div class="wrapper">
+      <div class="objective-contain">
+        <h2 class="text-dark section-heading-padding">Empreenda de forma prática.
+          Agende com objetividade.</h2>
+          <div><img src="assets/images/LandingPage/image-objective.svg" alt="Imagem certificando praticidade para o empreendedor"></div>
+          <span class="text-format-conent">Buscamos como objetivo trazer praticidade e organização para o seu negócio. Zelamos pela simplicidade e pela objetividade em nossa plataforma, para que você, cliente, tenha a melhor experiência como usuário, e que você, empreendedor, tenha um ambiente organizado e direto no seu dia a dia de trabalho, que sempre é corrido.</span>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer dark">
+    <div class="wrapper">
+      <a href="/"><img src="assets/icons/logo.png" alt="Logo da Agendaí" /></a>
+      <a href="/">Explore</a>
+      <a href="/">Sobre</a>
+      <a href="/">Contato</a>
+    </div>
+  </footer>
+
+
+
+  <script src="lib/Glider.js-master/glider.js" defer></script>
+  <script src="js/landingPage/carouselRecommended.js" defer></script>
+  <script src="../node_modules/swiper/swiper-bundle.min.js" defer></script>
+  <script src="js/landingPage/carousel.js" defer></script>
+</body>
+
+</html>
